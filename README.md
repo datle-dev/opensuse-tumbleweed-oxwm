@@ -42,4 +42,15 @@ create ~/.xinitrc
 touch ~/.xinitrc
 ```
 
-add `exec oxwm` to `~/.xinitrc`
+add to `~/.xinitrc`
+
+```bash
+!#/bin/bash
+
+exec wm
+```
+
+after logging in, use `startx` to launch x11
+
+
+
